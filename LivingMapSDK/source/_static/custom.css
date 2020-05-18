@@ -1,0 +1,93 @@
+body {
+    color: #013C4F;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="date"], input[type="month"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="week"], input[type="number"], input[type="search"], input[type="tel"], input[type="color"] {
+    color: #013C4F;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+
+a {
+    transition: color 0.25s;
+}
+
+
+.wy-nav-side {
+    background: #fbfbfb;
+    border-right: 1px solid #e4e4e4;
+}
+
+    .wy-side-nav-search input[type="text"] {
+        border-color: #C35103;
+        border-radius: 2px;
+    }
+
+    .wy-side-nav-search > .icon {
+        font-size: 1.2rem;
+    }
+        .wy-side-nav-search > .icon::before {
+            display:none;
+        }
+
+    .wy-side-nav-search > div.version {
+        color: rgba(255,255,255,0.5);
+    }
+    .wy-side-nav-search > a img.logo,
+    .wy-side-nav-search .wy-dropdown > a img.logo {
+        max-width: 80%;
+    }
+
+    .wy-menu-vertical a {
+        font-size: 1rem;
+    }
+
+
+.wy-nav-content-wrap {
+    background: #F0F2F4;
+}
+
+    .wy-nav-top {
+        background: #FA6600;
+        line-height: 40px;
+    }
+        .wy-nav-top i {
+            font-size: 26px;
+        }
+
+    .wy-nav-content {
+        background: #ffffff;
+        max-width: 900px;
+    }
+
+        .wy-nav-content a:link,
+        .wy-nav-content a:visited {
+            color: #FA6600;
+        }
+
+        .wy-nav-content a:active,
+        .wy-nav-content a:hover,
+        .wy-nav-content a:focus{
+            color: #C35103;
+        }
+
+        .wy-breadcrumbs {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+
+        .wy-nav-content footer,
+        .wy-nav-content footer p {
+            font-size: 0.8rem;
+            font-weight: 300;
+            margin-bottom: 0;
+        }
