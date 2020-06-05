@@ -94,12 +94,12 @@ html_theme_options = {
     'prev_next_buttons_location': 'bottom',
 
     'style_external_links': True,
-    'style_nav_header_background': '#FA6600',
+    'style_nav_header_background': 'transparent',#'#FA6600',
 
     # Toc options
     'collapse_navigation': True,
     'sticky_navigation': True,
-    'navigation_depth': 4,
+    'navigation_depth': 2,
     'includehidden': True,
     'titles_only': False,
 }
@@ -129,6 +129,10 @@ html_static_path = ['_static']
 #html_logo = '_static/logo.svg'
 
 html_css_files = ['custom.css']
+html_favicon = '_static/favicon.png'
+html_show_sourcelink = False
+
+
 
 
 # -- Options for HTMLHelp output ---------------------------------------------

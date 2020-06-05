@@ -1,8 +1,33 @@
 {# Import the theme's layout. #}
 {% extends "!layout.html" %}
 
+
 {%- block extrahead %}
-{# Add custom things to the head HTML tag #}
-{# Call the parent block #}
+
+<style type="text/css">
+    body {
+        opacity: 0;
+        transition: opacity 0.5s ease-in;
+    }
+    body.dom-loaded {
+        opacity: 1;
+    }
+</style>
+
 {{ super() }}
+{%- endblock %}
+
+
+
+
+
+{%- block footer %}
+{{ super() }}
+
+<script type="text/javascript">
+    jQuery(function() {
+        jQuery('body').addClass('dom-loaded');
+    });
+</script>
+
 {%- endblock %}
