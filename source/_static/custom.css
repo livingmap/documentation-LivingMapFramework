@@ -51,12 +51,16 @@ a:hover {
     background-color: #17313F;
 }
 
-.rst-versions .rst-current-version {
-    background-color: #1F4157;
+.rst-other-versions dl {
+    margin-bottom: 0.5rem;
 }
 
-.rst-versions .rst-other-versions dt {
-    color: #FA6600;
+.rst-other-versions dl:last-of-type {
+    margin-bottom: 0;
+}
+
+.rst-versions .rst-current-version {
+    background-color: #1F4157;
 }
 
 .rst-versions a,
@@ -64,6 +68,18 @@ a:hover {
 .rst-versions .rst-current-version .fa,
 .rst-versions .rst-other-versions dd a {
     color: #E1E1E1;
+}
+
+.rst-versions .rst-other-versions dt {
+    color: #FA6600;
+}
+
+.rst-versions .rst-other-versions hr {
+    border-top: 1px solid #1D4151;
+}
+
+.rst-versions .rst-other-versions dd a:hover {
+    text-decoration: underline;
 }
 
 
