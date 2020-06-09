@@ -49,6 +49,7 @@ a:hover {
 
 .rst-versions {
     background-color: #17313F;
+    font-family: inherit;
 }
 
 .rst-versions .rst-other-versions dl {
@@ -62,6 +63,13 @@ a:hover {
 .rst-versions .rst-current-version {
     background-color: #1F4157;
 }
+
+.rst-versions .rst-current-version .fa-book{
+    position: relative;
+    top: 2px;
+}
+
+
 
 .rst-versions a,
 .rst-versions .rst-current-version,
@@ -180,8 +188,8 @@ a:hover {
             .wy-menu-vertical a:focus,
             .wy-menu-vertical li.current a:hover,
             .wy-menu-vertical li.current a:focus {
-                background-color: #FA6600 !important;
-                color: #fff !important;
+                background-color: #C7D6DD !important;
+                color: #013C4F !important;
             }
 
         .wy-menu-vertical li.toctree-l1.current > a span.toctree-expand::before {
