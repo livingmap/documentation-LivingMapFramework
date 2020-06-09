@@ -51,11 +51,11 @@ a:hover {
     background-color: #17313F;
 }
 
-.rst-other-versions dl {
+.rst-versions .rst-other-versions dl {
     margin-bottom: 0.5rem;
 }
 
-.rst-other-versions dl:last-of-type {
+.rst-versions .rst-other-versions dl:last-of-type {
     margin-bottom: 0;
 }
 
