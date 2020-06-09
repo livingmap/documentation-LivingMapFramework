@@ -17,7 +17,6 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 #import sphinx_rtd_theme
-import guzzle_sphinx_theme
 
 
 # -- Project information -----------------------------------------------------
@@ -45,7 +44,6 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.todo',
     'sphinx_rtd_theme',
-    #'guzzle_sphinx_theme'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -81,10 +79,8 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-#html_theme_path = guzzle_sphinx_theme.html_theme_path()
 
 html_theme = 'sphinx_rtd_theme'
-#html_theme = 'guzzle_sphinx_theme'
 
 html_theme_options = {
     'canonical_url': '',
