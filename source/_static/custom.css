@@ -46,6 +46,27 @@ a:hover {
     margin-bottom: 2rem;
 }
 
+
+.rst-versions {
+    background-color: #17313F;
+}
+
+.rst-versions .rst-current-version {
+    background-color: #1F4157;
+}
+
+.rst-versions .rst-other-versions dt {
+    color: #FA6600;
+}
+
+.rst-versions a,
+.rst-versions .rst-current-version,
+.rst-versions .rst-current-version .fa,
+.rst-versions .rst-other-versions dd a {
+    color: #E1E1E1;
+}
+
+
 .wy-nav-side {
     background: #fbfbfb;
     border-right: 1px solid #e4e4e4;
