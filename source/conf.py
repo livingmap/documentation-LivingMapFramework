@@ -21,7 +21,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'LivingMapSDK'
+project = u'LivingMap Framework'
 copyright = u'2020, Living Map'
 author = u'Living Map'
 
@@ -93,11 +93,11 @@ html_theme_options = {
     'style_nav_header_background': 'transparent',#'#FA6600',
 
     # Toc options
-    'collapse_navigation': True,
-    'sticky_navigation': True,
-    'navigation_depth': 2,
+    'collapse_navigation': False,
+    'sticky_navigation': False,
+    'navigation_depth': 3,
     'includehidden': True,
-    'titles_only': False,
+    'titles_only': True,
 }
 
 
