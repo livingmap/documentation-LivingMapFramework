@@ -56,6 +56,15 @@ a:hover {
     transition: color 0.25s;
 }
 
+.btn {
+    box-shadow: none;
+    padding: 7px 12px;
+}
+
+.btn-neutral {
+    color: #013C4F;
+}
+
 .rst-content pre.literal-block,
 .rst-content div[class^="highlight"] pre,
 .rst-content .linenodiv pre {
@@ -92,6 +101,9 @@ a:hover {
 }
 
 
+.rst-versions .rst-other-versions {
+    color: rgba(255,255,255,0.5);
+}
 
 .rst-versions a,
 .rst-versions .rst-current-version,
@@ -365,3 +377,14 @@ a:hover {
     .rst-footer-buttons {
         padding-bottom: 1.2rem;
     }
+
+    footer {
+        color: #013C4F;
+    }
+
+    footer span.commit code,
+    footer span.commit .rst-content tt,
+    .rst-content footer span.commit tt {
+        color: #013C4F;
+    }
+
