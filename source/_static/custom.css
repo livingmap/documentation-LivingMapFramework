@@ -93,6 +93,7 @@ a:hover {
 
 .rst-versions .rst-current-version {
     background-color: #1F4157;
+    font-size: 0.8rem;
 }
 
 .rst-versions .rst-current-version .fa-book{
