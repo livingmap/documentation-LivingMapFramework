@@ -8,7 +8,7 @@ Error Codes
 Overview
 --------
 
-The following reference lists the error codes that are produced from within the Core SDKs and Accelerator SDK Packages from the *LivingMap Framework*. All the codes are defined within the ``LivingMapErrorCode`` enumeration class within *LivingMapSDK* and are structured in ranges for each other SDK in the *LivingMap Framework*:
+The following reference lists the error codes that are produced from within the Core SDKs and Accelerator SDK Packages from the *Living Map Framework*. All the codes are defined within the ``LivingMapErrorCode`` enumeration class within *LivingMapSDK* and are structured in ranges for each other SDK in the *Living Map Framework*:
 
 +---------------------------+---------------+
 | SDK or Package            | Error Range   |

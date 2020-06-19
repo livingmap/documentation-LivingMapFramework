@@ -9,7 +9,7 @@ Release Notes
 SDKs and Accelerators
 ---------------------
 
-The *LivingMap Framework* is divided into Core SDKs, and supporting 'Accelerator' SDK Packages.
+The *Living Map Framework* is divided into Core SDKs, and supporting 'Accelerator' SDK Packages.
 
 Each Core SDK will be versioned independently and compatibility between these versions will be noted here. Accelerator SDK Packages will likewise be versioned independently, however their integration into a project will automatically include necessary compatible versions of Core SDKs.
 
@@ -36,7 +36,7 @@ The latest versions of Core SDKs and Accelerator SDK Packages are:
 Versioning Scheme
 -----------------
 
-The *LivingMap Framework* packages follow Semantic Versioning. Major/minor SDK releases are released quarterly, while patch releases may be released more frequently. Minor and patch releases should never contain breaking changes.
+The *Living Map Framework* packages follow Semantic Versioning. Major/minor SDK releases are released quarterly, while patch releases may be released more frequently. Minor and patch releases should never contain breaking changes.
 
 
 Support Policy

@@ -9,13 +9,13 @@ Requirements
 Whitelisted IP Access
 ---------------------
 
-Access to the *LivingMap Framework* SDKs is restricted to whitelisted IP addresses. To add your IP address to the whitelist, contact LivingMap via the :doc:`../support/support-desk`. Please allow up to 1 working day for the request to be processed.
+Access to the *Living Map Framework* SDKs is restricted to whitelisted IP addresses. To add your IP address to the whitelist, contact Living Map via the :doc:`../support/support-desk`. Please allow up to 1 working day for the request to be processed.
 
 
 Software
 --------
 
-The *LivingMap Framework* requires that applications be compiled for a minimum version of the iOS and Android platforms. Requirements for a particular version may be due to the availability of certain OS APIs that allow access to sensor hardware data.
+The *Living Map Framework* requires that applications be compiled for a minimum version of the iOS and Android platforms. Requirements for a particular version may be due to the availability of certain OS APIs that allow access to sensor hardware data.
 
 +-----------------------------+--------------------+------------------+---------------------------------------+
 |                                                  | Operating System Minimum Versions                        |

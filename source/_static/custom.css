@@ -36,6 +36,11 @@ h1, h2, h3, h4, h5, h6 {
         position: absolute;
         top: -0.2em;
     }
+
+    .wy-nav-content h3 a.toc-backref::before {
+        content: ">";
+        top: -0.25em;
+    }
 }
 
 h1 {
@@ -279,6 +284,9 @@ a:hover {
 .rst-content .section .contents.local ul {
     padding-top: 1rem;
 }
+.rst-content .section .contents.local li ul {
+    padding-top: 0;
+}
 
 .rst-content .section .contents.local ul li {
     font-size: 0.8rem;
@@ -301,6 +309,9 @@ a:hover {
     left: 0;
     position: absolute;
     width: 16px;
+}
+.rst-content .section .contents.local li ul li:before {
+    content: ">";
 }
 
 .wy-nav-content-wrap {

@@ -21,7 +21,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'LivingMap Framework'
+project = u'Living Map Framework'
 copyright = u'2020, Living Map'
 author = u'Living Map'
 
