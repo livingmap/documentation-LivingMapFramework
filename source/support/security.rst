@@ -22,6 +22,12 @@ The following security concerns should be considered when integrating any *Livin
 Running on Jail-broken / Rooted Devices
 +++++++++++++++++++++++++++++++++++++++
 
-Jailbreaking (or device rooting) is a procedure by which an iOS or Android device is modified so that the user can take full control of the device. This effectively puts the device and its applications at risk of tampering, allows for reverse engineering and debugging of running code, allows full access to the file system, and allows for unsigned code fragments or full apps to be run with restricted or elevated privileges. There is a fair argument, however, that running of an application on a jail-broken or rooted device may be a valid use case. As such, the *Living Map Framework* will not prevent itself from running on these devices.
+Jail-breaking, or device rooting, is a procedure by which an iOS or Android device is modified so that the user can take full control of the device. In doing so this puts the device and its applications at risk of tampering, for example:
 
-It is advised though, that where there is no requirement to run an application on a jail-broken or rooted device, then it should be prevented by whatever means are possible of the respectful target platforms.
+* it allows for reverse engineering and debugging of running code,
+* it allows full access to the device's file system,
+* it allows for unsigned code fragments or full applications to run with elevated privileges.
+
+There is a fair argument that running of an application on a jail-broken or rooted device may be a valid use case. As such, the *Living Map Framework* will **not** prevent itself from running on these devices.
+
+Therefore, it is advised that where there is no requirement to run an application on a jail-broken or rooted device, then doing so should be prevented by whatever means are available through the respectful target platforms.
