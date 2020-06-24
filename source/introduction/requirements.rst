@@ -15,31 +15,32 @@ Access to the *Living Map Framework* SDKs is restricted to whitelisted IP addres
 Software
 --------
 
-The *Living Map Framework* requires that applications be compiled for a minimum version of the iOS and Android platforms. Requirements for a particular version may be due to the availability of certain OS APIs that allow access to sensor hardware data.
+The *Living Map Framework* SDKs support down to specified minimum versions (see below), and up to the latest versions of iOS and Android operating systems. Requirements for a particular minimum version may be due to the availability of certain OS APIs that allow access to sensor hardware data.
 
 +-----------------------------+--------------------+------------------+---------------------------------------+
-|                                                  | Operating System Minimum Versions                        |
+|                                                  | Minimum Supported Versions                               |
 +-----------------------------+--------------------+------------------+---------------------------------------+
 | Core SDK                    | Version            | iOS              | Android                               |
 +=============================+====================+==================+=======================================+
-| LivingMapSDK                | 1.0                | 10.0             | 6.0 Marshmallow (API 23)              |
+| LivingMapSDK                | 1.0                | 11.0             | 7.0 Nougat (API 24)                   |
 +-----------------------------+--------------------+------------------+---------------------------------------+
-| LiveSDK                     | 1.0                | 10.0             | 6.0 Marshmallow (API 23)              |
+| LiveSDK                     | 1.0                | 11.0             | 7.0 Nougat (API 24)                   |
 +-----------------------------+--------------------+------------------+---------------------------------------+
 
 +-----------------------------+--------------------+------------------+---------------------------------------+
-|                                                  | Operating System Minimum Versions                        |
+|                                                  | Minimum Supported Versions                               |
 +-----------------------------+--------------------+------------------+---------------------------------------+
 | Accelerator SDK Package     | Version            | iOS              | Android                               |
 +=============================+====================+==================+=======================================+
-| AirlineAccelerator          | 1.0                | 10.0             | 6.0 Marshmallow (API 23)              |
+| AirlineAccelerator          | 1.0                | 11.0             | 7.0 Nougat (API 24)                   |
 +-----------------------------+--------------------+------------------+---------------------------------------+
 
 
 Hardware
 --------
 
-* Devices capable of running the minimum software requirements.
+* Mobile devices capable of running the minimum software requirements.
 * Bluetooth (used for beacon positioning).
 * Wi-Fi (used for indoor positioning).
-* Internet connection - Cellular Radio or Wi-Fi (downloading maps and data).
+* GPS (used for outdoor positioning).
+* An active internet connection (either cellular or wi-fi for downloading maps and data).

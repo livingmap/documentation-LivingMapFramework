@@ -1,8 +1,10 @@
+.. _doc_release-notes:
+
 Release Notes
 =============
 
 .. contents::
-    :depth: 1
+    :depth: 2
     :local:
 
 
@@ -19,15 +21,15 @@ The latest versions of Core SDKs and Accelerator SDK Packages are:
 +-----------------------+--------------------+------------------------+
 | Core SDK              | Version            | Release                |
 +=======================+====================+========================+
-| LivingMapSDK          | 1.0.0              | __th June 2020         |
+| LivingMapSDK          | 1.0.0              | TBD                    |
 +-----------------------+--------------------+------------------------+
-| LiveSDK               | 1.0.0              | __th June 2020         |
+| LiveSDK               | 1.0.0              | TBD                    |
 +-----------------------+--------------------+------------------------+
 
 +---------------------------+--------------------+------------------------+--------------------------+
 | Accelerator SDK Package   | Version            | Release                | Included Core SDKs       |
 +===========================+====================+========================+==========================+
-| AirlineAccelerator        | 1.0.0              | __th June 2020         | LivingMapSDK 1.0.0       |
+| AirlineAccelerator        | 1.0.0              | TBD                    | LivingMapSDK 1.0.0       |
 |                           |                    |                        |                          |
 |                           |                    |                        | LiveSDK 1.0.0            |
 +---------------------------+--------------------+------------------------+--------------------------+
@@ -36,13 +38,13 @@ The latest versions of Core SDKs and Accelerator SDK Packages are:
 Versioning Scheme
 -----------------
 
-The *Living Map Framework* packages follow Semantic Versioning. Major/minor SDK releases are released quarterly, while patch releases may be released more frequently. Minor and patch releases should never contain breaking changes.
+The *Living Map Framework* packages follow `Semantic Versioning <https://semver.org/>`_. Major/Minor SDK releases are released on a roughly quarterly basis, whereas Patch releases may be released more frequently. Minor and Patch releases should never contain breaking changes. Guides on how to upgrade from previous versions to new versions will be provided in the :doc:`../introduction/upgrade-guide` section.
 
 
 Support Policy
 --------------
 
-For LTS releases, such as LivingMapSDK 1.1, bug fixes are provided for ___ years and security fixes are provided for ___ years. These releases provide the longest window of support and maintenance. For general releases, bug fixes are provided for ___ months and security fixes are provided for ___ year.
+For LTS releases, such as LivingMapSDK 1.1, bug fixes are provided for 2 years and security fixes are provided for 3 years. These releases provide the longest window of support and maintenance. For general releases, bug fixes are provided for 6 months and security fixes are provided for 1 year.
 
 
 LivingMapSDK
@@ -51,9 +53,9 @@ LivingMapSDK
 +-----------------+--------------------+---------------------+-------------------------+
 | Version         | Release            | Bug Fixes Until     | Security Fixes Until    |
 +=================+====================+=====================+=========================+
-| 1.1 (LTS)       | __th August 2020   | __th August 2022    | __th August 2022        |
+| 1.1 (LTS)       | TBD                | TBD                 | TBD                     |
 +-----------------+--------------------+---------------------+-------------------------+
-| 1.0             | __th July 2020     | __th February 2021  | __th July 2021          |
+| 1.0             | TBD                | TBD                 | TBD                     |
 +-----------------+--------------------+---------------------+-------------------------+
 
 
@@ -63,11 +65,9 @@ LiveSDK
 +-----------------+-----------------------+-----------------------+-------------------------+
 | Version         | Release               | Bug Fixes Until       | Security Fixes Until    |
 +=================+=======================+=======================+=========================+
-| 1.2             | __th September 2020   | __th August 2022      | __th August 2022        |
+| 1.1 (LTS)       | TBD                   | TBD                   | TBD                     |
 +-----------------+-----------------------+-----------------------+-------------------------+
-| 1.1 (LTS)       | __th August 2020      | __th August 2022      | __th August 2022        |
-+-----------------+-----------------------+-----------------------+-------------------------+
-| 1.0             | __th July 2020        | __th February 2021    | __th July 2021          |
+| 1.0             | TBD                   | TBD                   | TBD                     |
 +-----------------+-----------------------+-----------------------+-------------------------+
 
 
@@ -77,34 +77,38 @@ AirlineAccelerator
 +-----------------+-----------------------+-----------------------+-------------------------+
 | Version         | Release               | Bug Fixes Until       | Security Fixes Until    |
 +=================+=======================+=======================+=========================+
-| 1.0             | __th July 2020        | __th February 2021    | __th July 2021          |
+| 1.1 (LTS)       | TBD                   | TBD                   | TBD                     |
++-----------------+-----------------------+-----------------------+-------------------------+
+| 1.0             | TBD                   | TBD                   | TBD                     |
 +-----------------+-----------------------+-----------------------+-------------------------+
 
 
+Latest Changes
+--------------
+
+LivingMapSDK 1.0
+****************
+
+This was the initial release of LivingMapSDK.
 
 
-LivingMapSDK – 1.1 (LTS)
-------------------------
+.. raw:: html
 
-TBD
-
+   <hr>
 
 
-LiveSDK – 1.2
--------------
+LiveSDK 1.0
+***********
 
-TBD
-
-
-
-LiveSDK – 1.1 (LTS)
--------------------
-
-TBD
+This was the initial release of LiveSDK.
 
 
+.. raw:: html
 
-AirlineAccelerator – 1.0
-------------------------
+   <hr>
 
-TBD
+
+AirlineAccelerator 1.0
+**********************
+
+This was the initial release of AirlineAccelerator.

@@ -1,17 +1,14 @@
-.. title:: LivingMapSDK Documentation
+.. title:: Living Map Framework Documentation
 
-LivingMapSDK Documentation
-==========================
+Living Map Framework Documentation
+==================================
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer massa dui, ultrices nec ligula a, vehicula faucibus tortor. Pellentesque pulvinar purus a tellus maximus, et varius sem lacinia. Phasellus risus lorem, commodo vitae dictum non, accumsan sit amet mi. Curabitur auctor tellus sit amet magna eleifend molestie. Praesent et feugiat justo, eu pharetra massa. Suspendisse et nulla vitae eros feugiat aliquet. In bibendum blandit tortor, id lobortis neque luctus nec. Nunc semper et purus et dictum. Vestibulum vitae arcu in mi tristique semper semper vel nulla. Nunc tincidunt venenatis sem, ultricies mattis magna sagittis vitae. Donec fringilla finibus nulla, at tincidunt quam ultrices nec. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate orci risus.
-
-The main documentation for the site is organized into the following sections:
+Living Map provides mapping and routing solutions for complex spaces. Developers can gain access to these technologies through the use of intuitive SDKs (Software Development Kits). This documentation outlines how to access and use these SDKs in your own Android and iOS applications.
 
 .. toctree::
    :maxdepth: 1
    :caption: Introduction
    :name: sec-introduction
-   :hidden:
 
    introduction/release-notes
    introduction/requirements
@@ -22,7 +19,6 @@ The main documentation for the site is organized into the following sections:
    :maxdepth: 1
    :caption: Getting started
    :name: sec-getting-started
-   :hidden:
 
    getting-started/installation
    getting-started/configuration
@@ -30,12 +26,19 @@ The main documentation for the site is organized into the following sections:
 
 .. toctree::
    :maxdepth: 1
+   :caption: Examples
+   :name: sec-examples
+
+   examples/showing-a-map
+   examples/locating-position
+
+
+.. toctree::
+   :maxdepth: 1
    :caption: Support
    :name: sec-support
-   :hidden:
 
    FAQ <support/faq>
-   support/troubleshooting
    support/security
    support/support-desk
 
@@ -44,7 +47,6 @@ The main documentation for the site is organized into the following sections:
    :maxdepth: 1
    :caption: References
    :name: sec-references
-   :hidden:
 
    references/exceptions
    references/error-codes

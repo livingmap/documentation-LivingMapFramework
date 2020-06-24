@@ -8,13 +8,19 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.6;
 }
 
-h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+h1, h2, h3, h4, h5, h6, legend, .rst-content .toctree-wrapper p.caption {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     padding-top: 0.7em;
+}
+
+hr {
+    margin: 2rem 0 1.2rem;
+}
+
+.rst-content .toctree-wrapper p.caption {
+    font-size: 1.2rem;
+    margin-bottom: 0.3em;
 }
 
 .wy-nav-content h1 a.toc-backref,
@@ -353,10 +359,6 @@ a:hover {
             font-size: 1rem;
             font-weight: 300;
             padding: 24px 20px 0;
-        }
-
-        .toctree-wrapper .caption {
-            display: none;
         }
 
         .wy-nav-content .document {
